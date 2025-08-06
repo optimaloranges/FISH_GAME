@@ -37,6 +37,7 @@
     {"name":"Pond_Ambiance","order":3,"path":"sounds/Pond_Ambiance/Pond_Ambiance.yy",},
     {"name":"Pond_Theme","order":6,"path":"sounds/Pond_Theme/Pond_Theme.yy",},
     {"name":"Pond_Water","order":4,"path":"sounds/Pond_Water/Pond_Water.yy",},
+    {"name":"Rod_Cast_Whoosh","order":1,"path":"sounds/Rod_Cast_Whoosh/Rod_Cast_Whoosh.yy",},
     {"name":"Bobber_Bite","order":5,"path":"sprites/Bobber_Bite/Bobber_Bite.yy",},
     {"name":"Bobber_Nibble","order":1,"path":"sprites/Bobber_Nibble/Bobber_Nibble.yy",},
     {"name":"Bobber_Splash","order":3,"path":"sprites/Bobber_Splash/Bobber_Splash.yy",},

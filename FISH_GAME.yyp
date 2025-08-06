@@ -64,6 +64,7 @@
     {"id":{"name":"Pond_Theme","path":"sounds/Pond_Theme/Pond_Theme.yy",},},
     {"id":{"name":"Pond_Walk","path":"sounds/Pond_Walk/Pond_Walk.yy",},},
     {"id":{"name":"Pond_Water","path":"sounds/Pond_Water/Pond_Water.yy",},},
+    {"id":{"name":"Rod_Cast_Whoosh","path":"sounds/Rod_Cast_Whoosh/Rod_Cast_Whoosh.yy",},},
     {"id":{"name":"telephoneline","path":"sounds/telephoneline/telephoneline.yy",},},
     {"id":{"name":"Bobber_Bite","path":"sprites/Bobber_Bite/Bobber_Bite.yy",},},
     {"id":{"name":"Bobber_Cast","path":"sprites/Bobber_Cast/Bobber_Cast.yy",},},

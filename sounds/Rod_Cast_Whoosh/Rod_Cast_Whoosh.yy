@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":1.0559864,
+  "duration":0.0,
   "name":"Rod_Cast_Whoosh",
   "parent":{
     "name":"Player",
