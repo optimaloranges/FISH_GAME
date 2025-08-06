@@ -67,7 +67,7 @@ if (waiting == true){///nibble code///
 else {
 
        
-if (sprite_index != Bobber_Bite) {//set reaction timer//
+if (sprite_index != Bobber_Bite and offtheline==false) {//set reaction timer//
     sprite_index=Bobber_Bite
     audio_play_sound(Fish_Thrash,1, false)
     react = 0
