@@ -23,6 +23,7 @@ if (Player.sprite_index == Player_Right){
     by = by + yv;
     t = t + 1
 if (t > splash ){//end animation
+    audio_play_sound(Bobber_Splash_snd, 1, false)
     Bobber.sprite_index = Bobber_Splash
     bobberanimation = 6;
     casting = false; 
@@ -47,6 +48,7 @@ if (waiting == true){///nibble code///
    if (nibblecount > 0){
     if(nibble < 0){
         if(sprite_index == Bobber_Still){
+            audio_play_sound(Blub, 1, false)
             sprite_index = Bobber_Nibble;
             nibble = 6;
             
@@ -67,6 +69,7 @@ else {
        
 if (sprite_index != Bobber_Bite) {//set reaction timer//
     sprite_index=Bobber_Bite
+    audio_play_sound(Fish_Thrash,1, false)
     react = 0
     }   
 if(sprite_index==Bobber_Bite)  {
@@ -95,6 +98,6 @@ if (offtheline==true){
 }
 ///////////////////////////////////////////cancel/////////////////////////////////
 if(keyboard_check_released(vk_space)){
-    
+    audio_stop_sound(Line_Cast)
     instance_destroy(Bobber)
         }

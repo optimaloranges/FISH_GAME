@@ -25,6 +25,7 @@ if (Player.sprite_index == Player_Right){
 
 if (t > splash ){
     global.FISH_COUNT = global.FISH_COUNT + 1
+    audio_play_sound(Plus_One, 1, false)
     instance_destroy(Fish)
     
 }

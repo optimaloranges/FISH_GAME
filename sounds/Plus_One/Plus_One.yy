@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"Rod_Cast_Whoosh",
+  "%Name":"Plus_One",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,8 +9,8 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":1.0559864,
-  "name":"Rod_Cast_Whoosh",
+  "duration":1.1287981,
+  "name":"Plus_One",
   "parent":{
     "name":"Player",
     "path":"folders/Sounds/Player.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"Rod_Cast_Whoosh.mp3",
+  "soundFile":"Plus_One.mp3",
   "type":0,
   "volume":1.0,
 }

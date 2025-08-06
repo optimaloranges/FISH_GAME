@@ -37,7 +37,8 @@ if(space == 1 && tile != 0)
     
     if (instance_exists(Rod)){//rod animation timer//
         if(rodanimation > -1){
-            
+            if (audio_is_playing(Rod_Cast_Whoosh) == false and rodanimation < 6) audio_play_sound(Rod_Cast_Whoosh, 1, false)
+            if (audio_is_playing(Line_Cast) == false and rodanimation < 6) audio_play_sound(Line_Cast, 1, false)
             rodanimation=rodanimation-1;
         }
         else
@@ -102,7 +103,7 @@ if(space == 1 && tile != 0)
                 yy = y;
             }        
         var _inst = instance_create_depth(xx, yy, dep, Rod);
-        _inst.image_angle = point_direction(0,0, 0, 0);
+        
         
 }
 
