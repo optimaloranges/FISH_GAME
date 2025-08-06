@@ -1,0 +1,3 @@
+///update fish count////////////////////////////////////////////
+
+draw_text(1300,40, string(global.FISH_COUNT))

@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"birds",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":636.36,
+  "name":"birds",
+  "parent":{
+    "name":"Pond",
+    "path":"folders/Sounds/Pond.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"birds.mp3",
+  "type":0,
+  "volume":1.0,
+}

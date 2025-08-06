@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"Pond_Water",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":84.88801,
+  "name":"Pond_Water",
+  "parent":{
+    "name":"Pond",
+    "path":"folders/Sounds/Pond.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Pond_Water.mp3",
+  "type":0,
+  "volume":1.0,
+}
