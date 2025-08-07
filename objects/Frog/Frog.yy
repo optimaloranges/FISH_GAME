@@ -1,17 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"Lily_Pad",
+  "%Name":"Frog",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Lily_Pad",
+  "name":"Frog",
   "overriddenProperties":[],
   "parent":{
-    "name":"Lily Pads",
-    "path":"folders/Sprites/Pond Environment/Lily Pads.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -32,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Lily_Pad_Idle",
-    "path":"sprites/Lily_Pad_Idle/Lily_Pad_Idle.yy",
+    "name":"Frog_Idle",
+    "path":"sprites/Frog_Idle/Frog_Idle.yy",
   },
   "spriteMaskId":null,
   "visible":true,
