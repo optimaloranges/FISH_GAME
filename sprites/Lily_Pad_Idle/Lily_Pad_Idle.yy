@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"FISH_GAME",
-    "path":"FISH_GAME.yyp",
+    "name":"Lily Pads",
+    "path":"folders/Sprites/Pond Environment/Lily Pads.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

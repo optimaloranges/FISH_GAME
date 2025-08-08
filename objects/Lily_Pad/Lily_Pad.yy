@@ -10,8 +10,8 @@
   "name":"Lily_Pad",
   "overriddenProperties":[],
   "parent":{
-    "name":"Lily Pads",
-    "path":"folders/Sprites/Pond Environment/Lily Pads.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
