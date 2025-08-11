@@ -20,8 +20,8 @@ if (frog==true){
 if ( jump <= 0 and frog_obj.sprite_index == Frog_Idle) {
     var layer_id = layer_get_id("Water");
     var map_id = layer_tilemap_get_id(layer_id);
-    var right = tilemap_get_at_pixel(map_id, frog_obj.x+100,frog_obj.y)
-    var left = tilemap_get_at_pixel(map_id, frog_obj.x-100,frog_obj.y)
+    var right = tilemap_get_at_pixel(map_id, frog_obj.x+60,frog_obj.y)
+    var left = tilemap_get_at_pixel(map_id, frog_obj.x-60,frog_obj.y)
     if (right != 0) frog_obj.sprite_index = Frog_Jump_Right
     if (left != 0)  frog_obj.sprite_index = Frog_Jump_Left
     if (right!=0 and left!=0){

@@ -7,12 +7,12 @@ blinkt = 1000;
 blink=0;
 
 space = 0;
-rodanimation=11;
+rodanimation=33;
 
 
 g = 0.07  //pixels per frame squared
 
 
-
+rod=0
 
 

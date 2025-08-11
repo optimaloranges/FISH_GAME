@@ -20,7 +20,7 @@ if (keyboard_check_pressed(vk_space)){
 }
 if (keyboard_check_released(vk_space)){
     space = 0;
-    rodanimation = 11;
+    rodanimation = 33;
     instance_destroy(Rod);
    
 }
@@ -51,19 +51,19 @@ if(space == 1 && tile != 0)
                 object_set_sprite(Rod, Rod_Up);
                 xx = x;
                 dep = depth + 1;
-                yy = y;
+                yy = y-1;
             }
             if(sprite_index==Player_Left) {
                 object_set_sprite(Rod, Rod_Left);
-                xx = x;
+                xx = x-6;
                 dep = depth -1;
-                yy = y;
+                yy = y-1;
             }
             if(sprite_index==Player_Right) {
                 object_set_sprite(Rod, Rod_Right);
-                xx = x+1;
+                xx = x+7;
                 dep = depth -1;
-                yy = y;
+                yy = y-1;
             }
             if(sprite_index==Player_Down) {
                 object_set_sprite(Rod, Rod_Down); 
@@ -71,7 +71,9 @@ if(space == 1 && tile != 0)
                 dep = depth -1;
                 yy = y;
             }           
-            instance_create_depth(xx, yy, dep, Rod)
+            rod = instance_create_depth(xx, yy, dep, Rod)
+            rod.image_xscale = 0.5
+            rod.image_yscale = 0.5
         }
    
 }
@@ -88,21 +90,23 @@ if(space == 1 && tile != 0)
                 object_set_sprite(Rod, Rod_Left_Cast);
                 xx = x;
                 dep = depth -1;
-                yy = y;
+                yy = y-1;
             }
             if(sprite_index==Player_Right) {
                 object_set_sprite(Rod, Rod_Right_Cast);
                 xx = x+1;
                 dep = depth -1;
-                yy = y;
+                yy = y-1;
             }
             if(sprite_index==Player_Down) {
                 object_set_sprite(Rod, Rod_Down_Cast); 
                 xx = x;
                 dep = depth -1;
-                yy = y;
+                yy = y-1;
             }        
-        var _inst = instance_create_depth(xx, yy, dep, Rod);
+        rod = instance_create_depth(xx, yy, dep, Rod);
+        rod.image_xscale = 0.5
+        rod.image_yscale = 0.5
         
         
 }
