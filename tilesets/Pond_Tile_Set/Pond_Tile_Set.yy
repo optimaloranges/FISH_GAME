@@ -31,7 +31,7 @@
   "tileAnimationFrames":[
     {"$GMTileAnimation":"","%Name":"Water_Animation","frames":[32,33,],"name":"Water_Animation","resourceType":"GMTileAnimation","resourceVersion":"2.0",},
   ],
-  "tileAnimationSpeed":1.0,
+  "tileAnimationSpeed":0.5,
   "tileHeight":32,
   "tilehsep":0,
   "tilevsep":0,
