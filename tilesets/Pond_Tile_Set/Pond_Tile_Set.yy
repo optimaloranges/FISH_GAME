@@ -1,7 +1,9 @@
 {
   "$GMTileSet":"v1",
   "%Name":"Pond_Tile_Set",
-  "autoTileSets":[],
+  "autoTileSets":[
+    {"$GMAutoTileSet":"","%Name":"autotile_1","closed_edge":false,"name":"autotile_1","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,],},
+  ],
   "macroPageTiles":{
     "SerialiseHeight":0,
     "SerialiseWidth":0,
@@ -26,8 +28,10 @@
     "name":"Default",
     "path":"texturegroups/Default",
   },
-  "tileAnimationFrames":[],
-  "tileAnimationSpeed":15.0,
+  "tileAnimationFrames":[
+    {"$GMTileAnimation":"","%Name":"Water_Animation","frames":[32,33,],"name":"Water_Animation","resourceType":"GMTileAnimation","resourceVersion":"2.0",},
+  ],
+  "tileAnimationSpeed":1.0,
   "tileHeight":32,
   "tilehsep":0,
   "tilevsep":0,
