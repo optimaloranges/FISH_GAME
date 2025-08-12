@@ -53,6 +53,7 @@
     {"id":{"name":"Diary_of_an_8bit_Mage","path":"fonts/Diary_of_an_8bit_Mage/Diary_of_an_8bit_Mage.yy",},},
     {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
     {"id":{"name":"Bobber","path":"objects/Bobber/Bobber.yy",},},
+    {"id":{"name":"Duck","path":"objects/Duck/Duck.yy",},},
     {"id":{"name":"Fish","path":"objects/Fish/Fish.yy",},},
     {"id":{"name":"Frog","path":"objects/Frog/Frog.yy",},},
     {"id":{"name":"game","path":"objects/game/game.yy",},},

@@ -17,6 +17,7 @@
     {"name":"inst_23A01485","path":"rooms/Pond/Pond.yy",},
     {"name":"inst_45C1FC4","path":"rooms/Pond/Pond.yy",},
     {"name":"inst_693BE95F","path":"rooms/Pond/Pond.yy",},
+    {"name":"inst_5B939A21","path":"rooms/Pond/Pond.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -32,6 +33,7 @@
         {"$GMRInstance":"v2","%Name":"inst_23A01485","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_23A01485","objectId":{"name":"Lily_Pad","path":"objects/Lily_Pad/Lily_Pad.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.4,"scaleY":0.4,"x":845.0,"y":528.0,},
         {"$GMRInstance":"v2","%Name":"inst_45C1FC4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_45C1FC4","objectId":{"name":"Lily_Pad","path":"objects/Lily_Pad/Lily_Pad.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.4,"scaleY":0.4,"x":838.60004,"y":523.39996,},
         {"$GMRInstance":"v2","%Name":"inst_693BE95F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_693BE95F","objectId":{"name":"Lily_Pad","path":"objects/Lily_Pad/Lily_Pad.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.4,"scaleY":0.4,"x":742.39996,"y":322.0,},
+        {"$GMRInstance":"v2","%Name":"inst_5B939A21","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5B939A21","objectId":{"name":"Duck","path":"objects/Duck/Duck.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.4,"scaleY":0.4,"x":1005.0,"y":293.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Water","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Water","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":24,"SerialiseWidth":43,"TileCompressedData":[
           -8,0,-32,32,-4,0,-3,32,-5,0,-31,32,-4,0,-4,32,1,0,-5,32,-12,0,-16,32,-6,0,-10,32,-11,0,-4,32,-3,0,-9,

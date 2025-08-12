@@ -30,6 +30,7 @@
     {"name":"AnimationCurve1","order":14,"path":"animcurves/AnimationCurve1/AnimationCurve1.yy",},
     {"name":"Diary_of_an_8bit_Mage","order":1,"path":"fonts/Diary_of_an_8bit_Mage/Diary_of_an_8bit_Mage.yy",},
     {"name":"Bobber","order":3,"path":"objects/Bobber/Bobber.yy",},
+    {"name":"Duck","order":8,"path":"objects/Duck/Duck.yy",},
     {"name":"Fish","order":4,"path":"objects/Fish/Fish.yy",},
     {"name":"Frog","order":6,"path":"objects/Frog/Frog.yy",},
     {"name":"game","order":5,"path":"objects/game/game.yy",},
